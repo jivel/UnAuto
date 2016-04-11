@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_my_sites"
+            android:icon="@drawable/ic_place_black"
+            android:title="@string/navigation_drawer_my_sites" />
+        <item
+            android:id="@+id/nav_my_routes"
+            android:icon="@drawable/ic_timeline_black"
+            android:title="@string/navigation_drawer_my_routes" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black"
+            android:title="@string/navigation_drawer_share" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications_black"
+            android:title="@string/navigation_drawer_notification" />
+    </group>
+
+    <item android:title="@string/navigation_drawer_communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/navigation_drawer_send" />
+        </menu>
+    </item>
+
+    <item android:title="@string/navigation_drawer_support_and_configuration">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black"
+                android:title="@string/navigation_drawer_help" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black"
+                android:title="@string/navigation_drawer_settings" />
+            <item
+                android:id="@+id/nav_sign_off"
+                android:icon="@drawable/ic_exit_to_app_black"
+                android:title="@string/navigation_drawer_sign_off" />
+        </menu>
+    </item>
+
+</menu>
